@@ -13,18 +13,30 @@ Maintains a Google Sheet database of all current and graduated students, trackin
 Updates student records with graduation dates, automatically moving them from the current to the graduated student list.
 #### Data Management: 
 Offers features like duplication removal and data filters to ensure clean and organized records.
+
 ## Technology Stack
 #### Adobe Acrobat: PDF document handling.
 #### Google Apps Script: Automating workflows and integrating with other Google services.
 #### Google Drive: Storing PDF documents.
 #### Google Sheets: Tracking student information and statuses.
 #### Google Calendar: Managing appointments.
+
 ## Usage Instructions
 #### For Onboarding New Students: 
-Fill out and submit the student application PDF form. The system will automatically book an initial appointment and store the student's information.
+Fill out and submit the student application PDF form. The system will automatically book an initial appointment and store the student's information. \  
+<img src="pictures/app_main_page.png" width="177"/>
+<img src="pictures/all_students.png" width="300"/>
+
 #### For Recording Payments:
-Open up the PDF and update the payment section, record signatures, that's it.
+Open up the PDF and update the payment section, record signatures, and submit. That's it. \  
+<img src="pictures/payments.png" width="177"/>
+
 #### For Scheduling and Rescheduling Appointments: 
-Use Google Calendar to manage appointments. Rescheduled appointments are easily updated to reflect new DMV appointment times.
+Use Google Calendar to manage appointments. Rescheduled appointments are easily updated to reflect new DMV appointment times. \  
+<img src="pictures/full_calendar.png" width="300"/> 
+<img src="pictures/single_apt.png" width="177"/> 
+
 #### For Graduating Students: 
-Update the student's application PDF with their graduation date. The app will automatically move the student to the graduated list in Google Sheets.
+Update the student's application PDF with their graduation date. The app will automatically move the student to the graduated list in Google Sheets. \  
+<img src="pictures/graduation.png" width="177"/>
+<img src="pictures/september_graduates.png" width="477"/>
